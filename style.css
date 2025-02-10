@@ -1,0 +1,49 @@
+.navbar {
+  animation: nav 2s ease forwards;
+}
+@keyframes nav {
+  0% {
+    opacity: 0;
+    margin-bottom: 1000px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgba(92, 204, 64, 0.623);
+}
+.rounded-circle {
+  border: 5px solid green;
+  animation: atasKeBawah 1s ease forwards;
+}
+@keyframes atasKeBawah {
+  0% {
+    opacity: 0;
+    margin-bottom: 1000px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 60px;
+  }
+}
+#projects {
+  background-color: #00cba9;
+}
+.card:hover {
+  animation: membesar 0.3s ease forwards;
+}
+@keyframes membesar {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+section {
+  padding-top: 5rem;
+}
